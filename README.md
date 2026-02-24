@@ -1,9 +1,55 @@
-# flutter_luck_wheel
+# SMS Campaign Manager - Complete Application
 
-A Flutter application that simulates a spinning luck wheel.
+A full-stack SMS campaign management system with:
+- 🚀 **Python FastAPI** backend (DeepSeek AI integration)
+- ⚡ **Next.js** frontend (React + Tailwind)
+- 🗄️ **Supabase** database
+- ⏰ **Automated cron jobs** for scheduled sending
 
-## Getting Started
-This project is a starting point for building a customizable luck wheel experience in Flutter.
+## 📋 Project Structure
+
+```
+my_sms_send/
+├── backend/                    # Python FastAPI server
+├── frontend/                   # Next.js application
+├── supabase/                   # Database schema
+├── .github/workflows/          # GitHub Actions workflows
+├── .gitignore
+└── README.md
+```
+
+## 🔧 Quick Start
+
+### 1. Set Up Supabase
+1. Create a Supabase project
+2. Execute SQL from `supabase/schema.sql`
+3. Get your credentials
+
+### 2. Set Up Backend (Python)
+```bash
+cd backend
+cp .env.example .env
+pip install -r requirements.txt
+python main.py
+```
+
+### 3. Set Up Frontend (Next.js)
+```bash
+cd frontend
+cp .env.example .env.local
+npm install
+npm run dev
+```
+
+## 📚 Documentation
+
+- **Backend API**: http://localhost:8000/docs
+- **Backend README**: [backend/README.md](backend/README.md)
+- **Frontend README**: [frontend/README.md](frontend/README.md)
+
+## 📄 License
+
+Open source and available for personal and commercial use.
 
 ## Key Features:
 
